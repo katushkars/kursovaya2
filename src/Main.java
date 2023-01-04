@@ -37,7 +37,7 @@ public static TypeTask readTaskType (Scanner scanner){
                     case "1":
                         return TypeTask.PERSONAL;
                     case "2":
-                        return TypeTask.WORK;
+                        return TypeTask.WORK;ттт
                     default:
                         System.out.println ("Введен неправильный тип задачи!")
 
