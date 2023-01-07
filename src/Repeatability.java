@@ -1,5 +1,6 @@
 public enum Repeatability {
-    SINGLE,
+    SINGLE
+    ,
     DAILY,
     WEEKLY,
     MONTHLY,
