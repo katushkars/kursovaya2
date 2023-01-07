@@ -15,6 +15,7 @@ public abstract class Task {
         this.taskDateTime = taskDateTime;
         this.typeTask = typeTask;
         this.id = counter++;
+
     }
 
     public String getTitle() {
