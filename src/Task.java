@@ -9,7 +9,7 @@ public abstract class Task {
     private int id;
     private int counter =0;
 
-    public Task(String title, String description, LocalDateTime taskDateTime, TypeTask typeTask, int id) {
+    public Task(String title, String description, LocalDateTime taskDateTime, TypeTask typeTask) {
         this.title = title;
         this.description = description;
         this.taskDateTime = taskDateTime;

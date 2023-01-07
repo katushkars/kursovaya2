@@ -3,8 +3,8 @@ import java.time.LocalDateTime;
 
 public class WeeklyTask extends Task{
 
-    public WeeklyTask(String title, String description, LocalDateTime taskDateTime, TypeTask typeTask, int id) {
-        super(title, description, taskDateTime, typeTask, id);
+    public WeeklyTask(String title, String description, LocalDateTime taskDateTime, TypeTask typeTask) {
+        super(title, description, taskDateTime, typeTask);
     }
 
     @Override

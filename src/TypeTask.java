@@ -1,4 +1,7 @@
 public enum TypeTask {
-PERSONAL,
-    WORK
+    PERSONAL ("Персональная"),
+    WORK ("Рабочая");
+
+    TypeTask(String name) {
+    }
 }
